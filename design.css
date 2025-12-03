@@ -1,5 +1,19 @@
 .startsida{
     display: grid;
+    grid-template-rows: 20% 60% 20%;
+}
+.headerbild{
+    background-color: green;
+    height: 157px;
+    width: auto;
+}
+.center{
+    text-align: center;
+}
+.navbar{
+    background-color: blue;
+}
+.startbody{
+    display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 20% 80% 20%;
 }
