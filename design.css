@@ -10,6 +10,10 @@
 .center{
     text-align: center;
 }
-.footerbild{
-
+.navbar{
+    background-color: blue;
+}
+.startbody{
+    display: grid;
+    grid-template-columns: 80% 20%;
 }
