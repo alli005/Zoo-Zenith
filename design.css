@@ -40,3 +40,55 @@ grid-template-rows: 20% 20% 20% 20% ;
 h1{
     text-align: center;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,body{
+    height: 100%; margin: 0; padding: 0; 
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr ;
+
+}
+.grön{
+    background-color: rgb(61, 172, 44);
+    grid-column:1/5;
+    grid-row: 1/1;
+}
+
+h1{
+    text-align: center;
+}
+.Kalle{
+    background-color: yellow;
+    grid-column: 1/1;
+    grid-row: 2/5;
+
+}
+.Betty{
+background-color:turquoise;
+grid-row: 2/5;
+
+}
+.Göran{
+background-color: pink;
+grid-row: 2/5;
+}
