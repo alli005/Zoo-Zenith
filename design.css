@@ -16,6 +16,10 @@ body, html{
   
 
 }
+.startContainer{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
 .center{
     text-align: center;
 }
