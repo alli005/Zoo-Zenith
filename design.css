@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 body, html{
     height: 100%;
 }
@@ -94,5 +96,9 @@ grid-row: 2/5;
 }
 .Göran{
 background-color: pink;
+grid-row: 2/5;
+}
+.Doris{
+background-color: blueviolet;
 grid-row: 2/5;
 }
