@@ -1,13 +1,17 @@
-.startsida{
-    display: grid;
-    grid-template-rows: 30% 60% 10%;
+body, html{
+    height: 100%;
 }
 .startHeader{
     background-color: green;
-  
-
+}
+.startFooter{
+    background-color: green;
 }
 .startBody{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    padding: 0;
+    margin: 0;
     background-color: blue;
   
 
@@ -16,7 +20,7 @@
     text-align: center;
 }
 .navbar{
-    background-color: blue;
+    background-color: gray;
 }
 .startbody{
     display: grid;
