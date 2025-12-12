@@ -3,8 +3,16 @@
 body, html{
     height: 100%;
 }
+.textRotate{
+    transform: rotate(20);
+}
 .startHeader{
     background-color: green;
+    border-radius: 10px;
+}
+.startImg{
+    height: auto ;
+    width: 100;
 }
 .startFooter{
     background-color: yellow;
@@ -14,10 +22,14 @@ body, html{
     grid-template-rows: 10% 80% 10%;
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: yellow;
 }
 .current{
     font-weight: bold;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 20px;
 }
 .startContainer{
     display: grid;
@@ -27,7 +39,10 @@ body, html{
     text-align: center;
 }
 .navbar{
+    display: grid;
+    grid-template-rows: 10% 90%;
     background-color: gray;
+    border-radius: 20px;
 }
 .startbody{
     display: grid;
