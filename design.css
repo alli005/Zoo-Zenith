@@ -87,7 +87,7 @@ h1{
 
 
 html,body{
-    height: 100%; margin: 0; padding: 0; 
+    height: 105%; margin: 0; padding: 0; 
 }
 .container{
 display: grid;
@@ -116,12 +116,12 @@ grid-row: 2/5;
 
 }
 .Göran{
-background-color: pink;
+background-color: coral;
 grid-row: 2/5;
 
 }
 .Doris{
-background-color: blueviolet;
+background-color: pink;
 grid-row: 2/5;
 }
 
@@ -131,3 +131,9 @@ grid-row: 2/5;
   font-style: normal;
 }
 
+.vend-sans-font {
+  font-family: "Vend Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
