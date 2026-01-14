@@ -80,7 +80,14 @@ h1{
 .centered{
     text-align: center;
 }
-
+.djurkaraktär{
+background-color: purple;
+}
+.startmain{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: brown;
+}
 
 
 
