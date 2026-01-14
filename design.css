@@ -19,7 +19,7 @@ body, html{
     align-items: center;
     background-color: lime;
     border-radius: 10px;
-
+    
 }
 .startImg{
     height: auto ;
@@ -58,6 +58,7 @@ body, html{
     grid-template-rows: 10% 90%;
     background-color: gray;
     border-radius: 20px;
+  
 }
 .startbody{
     display: grid;
@@ -84,8 +85,8 @@ h1{
 background-color: purple;
 }
 .startmain{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+   display: grid;
+    
     background-color: brown;
 }
 
