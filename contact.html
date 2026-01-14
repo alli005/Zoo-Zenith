@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt & Bokning | Zoo Zenith</title>
+  <!-- Google Fonts: Handwritten and Clean Readable Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    /* General Body Styles */
+    body {
+      font-family: 'Comic Neue', sans-serif;
+      background-color: #d4f0e7; /* Soft, light green-blue */
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #ffd966; /* Warm, cheerful yellow */
+      text-align: center;
+      padding: 1rem 0;
+      font-family: 'Pacifico', cursive;
+    }
+
+    h1, h2 {
+      font-family: 'Pacifico', cursive;
+      margin: 0.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .contact-box {
+      background-color: #ffffff;
+      border-radius: 25px;
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .contact-box h2 {
+      color: #ff6f61; 
+      text-align: center;
+    }
+
+    .contact-info, .booking-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-item {
+      background-color: #f9f9f9;
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+
+    .contact-item span {
+      font-weight: bold;
+      display: inline-block;
+      width: 120px;
+    }
+
+    .booking-box {
+      background-color: #f0e6ff; /* soft purple for booking */
+      border-radius: 25px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .booking-box p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ffcc99; /* playful warm color */
+      color: #333;
+      text-decoration: none;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.2rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      font-size: 0.9rem;
+      font-family: 'Comic Neue', sans-serif;
+    }
+
+    footer a {
+      color: #333;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+      .contact-box, .booking-box {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zoo Zenith</h1>
+    <p>Välkommen till vår digitala entré! Ring oss, vi svarar nästan alltid!</p>
+  </header>
+
+  <main>
+
+    <!-- Kontakt Information -->
+    <div class="contact-box">
+      <h2>Kontakt</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span>Zoo-Direktör:</span> Sture Jansson
+        </div>
+        <div class="contact-item">
+          <span>Adress:</span> Djurparksvägen 55, Habitat 3B, Flumköping, Zon Z-13
+        </div>
+        <div class="contact-item">
+          <span>Telefon:</span> +46 (0) 777-999-ZOOS
+        </div>
+        <div class="contact-item">
+          <span>E-post:</span> <a href="mailto:info@zoozenith.se">info@zoozenith.se</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bokning Information -->
+    <div class="booking-box">
+      <h2>Gruppbokningar</h2>
+      <p>Planerar ni ett besök med flera vänner eller skolklasser? Skicka ett mail till <a href="mailto:info@zoozenith.se">info@zoozenith.se</a> för att boka ert äventyr!</p>
+      <p>Om du hör apvrål i bakgrunden är det bara Kalle som förhandlar om sin pension.</p>
+      <a class="btn" href="mailto:info@zoozenith.se">Boka Nu!</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© Zoo Zenith | <a href="#">ORDNINGSREGLER</a></p>
+  </footer>
+
+</body>
+</html>
