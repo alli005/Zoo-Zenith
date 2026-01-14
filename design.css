@@ -17,7 +17,7 @@ body, html{
 }
 .startHeader{
     align-items: center;
-    background-color: green;
+    background-color: lime;
     border-radius: 10px;
 
 }
@@ -33,7 +33,7 @@ body, html{
     grid-template-rows: 10% 80% 10%;
     padding: 0;
     margin: 0;
-    background-color: yellow;
+    background-color: lightskyblue;
 }
 .current{
     font-weight: bold;
@@ -41,6 +41,10 @@ body, html{
 .yellow{
     background-color: yellow;
     border-radius: 20px;
+}
+.blue{
+    background-color: lightskyblue;
+   
 }
 .startContainer{
     display: grid;
