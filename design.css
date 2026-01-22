@@ -184,6 +184,205 @@ html, body{
     font-size: 1.5em;
 }
 
+/* Service besök oss visit sak css: */
+
+.visitHeaderText{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.visitHeader{
+    background-color: #84e984;
+    text-align: center;
+    border-style: solid;
+    border-color: #5da05d62;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    
+    
+}
+.visitHeader h1 {
+    font-family: "Macondo";
+    display: inline-block;
+    transform: rotate(-3deg);
+    transform-origin: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 15px;
+}
+.visitHeader h3{
+    display: block;
+    transform: rotate(1deg);
+    transform-origin: center;
+    font-family: "Macondo";
+}
+.visitMain{
+          background-color: lightskyblue;
+          padding-bottom: 30px;
+}
+.visitBody{
+    background-color: lightskyblue;
+}
+.visitSchemeText h4{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.visitSchemeText {
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(201, 124, 231);
+    border-color: rgb(133, 199, 211);
+    box-shadow: 0px 1.5px 7px;
+}
+
+.visitServiceContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.visitServiceInfo{
+    background-color: rgb(227, 164, 233);
+    border-radius: 20px;
+    border-color: rgb(179, 235, 186);
+    border-style: solid;
+    font-family: "Fredoka";
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 15px;
+}
+.visitList dt {
+    font-weight: bold;
+}
+.visitMapContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.visitMap{
+    background-color: rgb(199, 199, 147);
+    border-radius: 35px;
+    border-color: rgb(179, 235, 186);
+    border-style: solid;
+    font-family: "Fredoka";
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 15px;
+}
+.visitMapPlace{
+    
+}
+.visitMap img{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.indexTextBold{
+    font-weight: bold;
+}
+.visitSchemeContainer{
+    margin: 125px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: lightskyblue;
+}
+.visitTable{
+    border-style: solid;
+    margin: auto;
+    padding: 10px 10px;
+    border-collapse: collapse;
+}
+.visitTable th{
+    border-style: solid;
+    font-weight: bold;
+}
+.visitTable td{
+    border-style: solid;
+}
+.indexPlaneraContainer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 60px;
+    
+}
+.indexPlanera{
+    border-style: solid;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: rgba(236, 180, 189, 0.836);
+    border-color: lightblue;
+    box-shadow: 0px 1.5px 7px;
+}
+.indexPlanera a{
+
+    align-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.centeredLink{
+    display: block;
+    text-align: center;
+}
+
+
+.visitFooter{
+    background-color: lightgreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 0;
+
+}
+.visitFooter h4{
+    font-size: 0.75em;
+    padding: 0;
+    margin: 0;
+}
+.indexNavList li:nth-child(1){
+    background-color: lightcoral;
+}
+.indexNavList li:nth-child(2){
+    background-color: yellowgreen;
+}
+.indexNavList li:nth-child(3){
+    background-color: yellow;
+}
+.indexNavList li:nth-child(4){
+    background-color: cyan;
+}
+.indexNav{
+    background-color: lightgreen;
+    padding: 0;
+    margin: 0;
+}
+.indexNavList{
+        display: flex;
+        justify-content: center;
+}
+.indexNavList li{
+
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 3px 4px;
+    padding: 4px 8px;
+    font-family: "Permanent Marker";
+    font-size: 0.85em;
+    list-style: none;
+    box-shadow: 0px 6px 12px;
+}
+
+
+
+
+
 
 
 
