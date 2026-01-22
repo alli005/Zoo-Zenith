@@ -1,5 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+/* Index css: */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+.indexHeaderText{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.indexHeader{
+    background-color: #84e984;
+    text-align: center;
+    border-style: solid;
+    border-color: #5da05d62;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    
+    
+}
+.indexFooter{
+    background-color: limegreen;
+}
+.indexMain{
+          background-color: lightskyblue;
+          padding-bottom: 30px;
+}
+.indexBody{
+    background-color: lightskyblue;
+}
+.indexNav{
+    background-color: lightgreen;
+    padding: 0;
+    margin: 0;
+}
+.indexHeader h1 {
+    font-family: "Macondo";
+    display: inline-block;
+    transform: rotate(-3deg);
+    transform-origin: center;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 15px;
+}
+.indexHeader h3{
+    display: block;
+    transform: rotate(1deg);
+    transform-origin: center;
+    font-family: "Macondo";
+}
+.indexNavList{
+        display: flex;
+        justify-content: center;
+}
+.indexNavList li{
+
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 3px 4px;
+    padding: 4px 8px;
+    font-family: "Permanent Marker";
+    font-size: 0.85em;
+    list-style: none;
+    box-shadow: 0px 6px 12px;
+}
+.indexOpening h4{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.indexOpening {
+    border-style: solid;
+    border-radius: 15px;
+    background-color: cyan;
+    border-color: rgb(133, 199, 211);
+    box-shadow: 0px 1.5px 7px;
+}
+.centered{
+    text-align: center;
+}
+.indexWelcomeText{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+.indexDjurContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: lightskyblue;
+}
+.indexDjur{
+    background-color: pink;
+}
+.indexImg{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    
+}
+.indexKalle{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
+    border-color: rgb(179, 235, 186);
+    border-style: solid;
+    font-family: "Fredoka";
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    box-shadow: 0px 6px 15px;
+}
+.indexTextBold{
+    font-weight: bold;
+}
+.indexOpeningContainer{
+    margin: 125px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: lightskyblue;
+}
+.indexOpening p{
+    text-align: center;
+}
+.indexPlaneraContainer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 60px;
+    
+}
+.indexPlanera{
+    border-style: solid;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: rgba(236, 180, 189, 0.836);
+    border-color: lightblue;
+    box-shadow: 0px 1.5px 7px;
+}
+.indexPlanera a{
+
+    align-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.centeredLink{
+    display: block;
+    text-align: center;
+}
+.indexFooter{
+    background-color: lightgreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 0;
+
+}
+.indexFooter h4{
+    font-size: 0.75em;
+    padding: 0;
+    margin: 0;
+}
+.indexNavList li:nth-child(1){
+    background-color: lightcoral;
+}
+.indexNavList li:nth-child(2){
+    background-color: yellowgreen;
+}
+.indexNavList li:nth-child(3){
+    background-color: yellow;
+}
+.indexNavList li:nth-child(4){
+    background-color: cyan;
+}
+.indextOpeningText{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
 
 .headerDiv{
     
