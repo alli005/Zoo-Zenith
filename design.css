@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 
 /* Index css: */
 
@@ -66,7 +66,7 @@ html, body{
     font-family: "Permanent Marker";
     font-size: 0.85em;
     list-style: none;
-    box-shadow: 0px 6px 12px;
+    box-shadow: 0 6px 12px;
 }
 .indexOpening h4{
     text-align: center;
@@ -78,7 +78,7 @@ html, body{
     border-radius: 15px;
     background-color: cyan;
     border-color: rgb(133, 199, 211);
-    box-shadow: 0px 1.5px 7px;
+    box-shadow: 0 1.5px 7px;
 }
 .centered{
     text-align: center;
@@ -113,7 +113,7 @@ html, body{
     margin-left: 30px;
     margin-top: 20px;
     font-size: 1.2em;
-    box-shadow: 0px 6px 15px;
+    box-shadow: 0 6px 15px;
 }
 .indexTextBold{
     font-weight: bold;
@@ -137,9 +137,9 @@ html, body{
     border-style: solid;
     border-radius: 100px;
     padding: 30px;
-    background-color: rgba(236, 180, 189, 0.836);
+    background-color: rgb(237, 180, 190);
     border-color: lightblue;
-    box-shadow: 0px 1.5px 7px;
+    box-shadow: 0 1.5px 7px;
 }
 .indexPlanera a{
 
@@ -147,7 +147,6 @@ html, body{
     font-weight: bold;
     font-size: 3em;
     color: black;
-    font-weight: bold;
     text-decoration: none;
 }
 .centeredLink{
@@ -250,7 +249,7 @@ html, body{
     margin-left: 30px;
     margin-top: 20px;
     font-size: 1.2em;
-    box-shadow: 0px 6px 15px;
+    box-shadow: 0 6px 15px;
 }
 .visitList dt {
     font-weight: bold;
@@ -268,10 +267,7 @@ html, body{
     margin-left: 30px;
     margin-top: 20px;
     font-size: 1.2em;
-    box-shadow: 0px 6px 15px;
-}
-.visitMapPlace{
-    
+    box-shadow: 0 6px 15px;
 }
 .visitMap img{
     display: block;
@@ -313,9 +309,9 @@ html, body{
     border-style: solid;
     border-radius: 100px;
     padding: 30px;
-    background-color: rgba(236, 180, 189, 0.836);
+    background-color: rgb(236, 180, 189);
     border-color: lightblue;
-    box-shadow: 0px 1.5px 7px;
+    box-shadow: 0 1.5px 7px;
 }
 .indexPlanera a{
 
@@ -410,10 +406,6 @@ html, body{
     background-color: lime;
     border-radius: 10px;
     
-}
-.startImg{
-    height: auto ;
-    width: 100;
 }
 .startFooter{
     background-color: lightskyblue;
@@ -544,7 +536,6 @@ grid-row: 2/2;
 
 .vend-sans-font {
   font-family: "Vend Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
